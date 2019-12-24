@@ -1,0 +1,80 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Open+Sans:400,600,700&display=swap");
+
+/* Colors */
+:root {
+  --color-purpple: #4633af;
+  --color-text-light: #f1f1f8;
+  --color-dark-1: #262431;
+  --color-dark-2: #2f2c3d;
+}
+
+/* Global Resets */
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "open sans", sans-serif;
+  color: var(--color-text-light);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 117rem;
+  margin: 0 auto;
+}
+
+/* Start Header */
+
+.navbar {
+  background-color: #ddd;
+}
+
+.navbar .wrapper {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-brand .logo {
+  height: 3rem;
+}
+
+.nav-list .list-item {
+  display: inline-block;
+  margin-right: 1.5rem;
+}
