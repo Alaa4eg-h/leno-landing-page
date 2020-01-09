@@ -14,73 +14,332 @@
 <body>
     <!-- Start Header -->
     <header class="header">
-        <nav class="navbar">
-            <div class="container wrapper">
-                <div class="nav-brand">
-                    <img src="img/logo.svg" alt="Logo" class="logo">
-                </div>
-
-                <ul class="nav-list">
-                    <li class="list-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="list-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="list-item">
-                        <a class="nav-link" href="#">Preview</a>
-                    </li>
-                    <li class="list-item">
-                        <a class="nav-link" href="#">Details</a>
-                    </li>
-                    <li class="list-item">
-                        <a class="nav-link" href="#">Details</a>
-                    </li>
-                </ul>
-
-                <ul class="nav-list-icon">
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+        <div class="logo">
+            <a href="#">
+                <img class="logo__icon" src="img/logo.svg" alt="Logo">
+            </a>
+        </div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__list-item">
+                    <a href="#" class="nav__link">Home</a>
+                </li>
+                <li class="nav__list-item">
+                    <a href="#" class="nav__link">Features</a>
+                </li>
+                <li class="nav__list-item">
+                    <a href="#" class="nav__link">Preview</a>
+                </li>
+                <li class="nav__list-item">
+                    <a href="#" class="nav__link">Details</a>
+                </li>
+                <li class="nav__list-item">
+                    <a href="#" class="nav__link">Contact</a>
+                </li>
+            </ul>
         </nav>
 
+        <div class="nav-icon">
+            <a href="#" class="nav-icon__item">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="nav-icon__item">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
     </header>
     <!-- End Header -->
 
     <!-- Start Hero -->
-
     <section class="hero">
         <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title">Mobile app<br> for desinger</h1>
-                    <p>Leno is one of the easiest and feature packed marketing automation apps in the market. Download
-                        it today!</p>
-                    <a href="#" class="btn btn-lg">
-                        <i class="fab fa-apple"></i>
-                        App store
-                    </a>
-                    <a href="#" class="btn btn-lg">
-                        <i class="fas fa-play"></i>
-                        Play store
-                    </a>
+            <div class="hero__content">
+                <div class="hero__text">
+                    <h1 class="hero__heading">Mobile app <br>for<span class="heading--cayan"> designer</span> </h1>
+                    <p class="hero__paragraph">Leno is one of the easiest and feature packed marketing automation apps
+                        in the market. Download it today!</p>
+                    <button class="btn hero__btn">
+                        <i class="fab fa-apple btn-icon"></i>App store
+                    </button>
+                    <button class="btn hero__btn">
+                        <i class="fas fa-play btn-icon"></i> Play store
+                    </button>
                 </div>
-                <div class="hero-img-wrapper">
-                    <img src="img/header-iphone.png" alt="Hero Phone">
+                <div class="hero__phone">
+                    <img src="img/header-iphone.png" alt="hero phone" class="hero__photo">
                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero -->
+    <!-- Start Clients -->
+    <section class="clients">
+        <div class="container">
+            <div class="clients-wrap">
+                <div class="client-box">
+                    <img class="client__photo" src="img/testimonial-1.jpg" alt="Client photo">
+                    <div class="client__body">
+                        <p class="client__paragraph">This app has the potential of becoming a mandatory tool in every
+                            marketer's day to day operations.</p>
+                        <h2 class="client__title">Marsha singer - Marketer</h2>
+                    </div>
+                </div>
+                <div class="client-box">
+                    <img class="client__photo" src="img/testimonial-4.jpg" alt="Client photo">
+                    <div class="client__body">
+                        <p class="client__paragraph">Searching for a great marketing automation app was difficult but
+                            thankfully I found Leno.</p>
+                        <h2 class="client__title">Roy smith - Developer</h2>
+                    </div>
+                </div>
+                <div class="client-box">
+                    <img class="client__photo" src="img/testimonial-3.jpg" alt="Client photo">
+                    <div class="client__body">
+                        <p class="client__paragraph">Leno's support team is amazing. They've helped me with some issues
+                            and I am so grateful to them.</p>
+                        <h2 class="client__title">Tim show - Designer</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Clients -->
+
+    <!-- Start Features -->
+
+    <section class="features">
+        <div class="container">
+            <h3 class="section__heading">Features</h3>
+            <p class="section__sub-heading">Leno was designed based on input from personal development coaches and
+                popular trainers so it offers all</p>
+            <div class="features__content">
+                <div class="features__item">
+                    <div class="features__single">
+                        <div class="features__text">
+                            <h3 class="features__title">Goal setting</h3>
+                            <p class="features__desc">Like any self improving process everything starts with setting
+                                your goals and committing to them
+                            </p>
+                        </div>
+                        <div class="features__icon-box">
+                            <i class="fas fa-compass features__icon"></i>
+                        </div>
+                    </div>
+                    <div class="features__single">
+                        <div class="features__text">
+                            <h3 class="features__title">Visual Editor</h3>
+                            <p class="features__desc">Like any self improving process everything starts with setting
+                                your goals and committing to them
+                            </p>
+                        </div>
+                        <div class="features__icon-box">
+                            <i class="far fa-file-code features__icon"></i>
+                        </div>
+                    </div>
+                    <div class="features__single">
+                        <div class="features__text">
+                            <h3 class="features__title">Refined Options</h3>
+                            <p class="features__desc">Like any self improving process everything starts with setting
+                                your goals and committing to them
+                            </p>
+                        </div>
+                        <div class="features__icon-box">
+                            <i class="far fa-gem features__icon"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="features__item">
+                    <div class="features__phone">
+                        <img src="img/features-iphone-1.png" alt="Features phone" class="fetures__phone__photo">
+                    </div>
+                </div>
+                <div class="features__item">
+                    <div class="features__single features__single--left">
+                        <div class="features__text features__text--left">
+                            <h3 class="features__title features__title--left">Calendar Input</h3>
+                            <p class="features__desc features__desc--left">Like any self improving process everything
+                                starts with setting your goals and committing to them
+                            </p>
+                        </div>
+                        <div class="features__icon-box icon-box--left">
+                            <i class="features__icon  fas fa-calendar-check"></i>
+                        </div>
+                    </div>
+                    <div class="features__single features__single--left">
+                        <div class="features__text features__text--left">
+                            <h3 class="features__title features__title--left">Easy Reading</h3>
+                            <p class="features__desc features__desc--left">Like any self improving process everything
+                                starts with setting your goals and committing to them
+                            </p>
+                        </div>
+                        <div class="features__icon-box  icon-box--left">
+                            <i class="features__icon fas fa-calendar-check"></i>
+                        </div>
+                    </div>
+                    <div class="features__single features__single--left">
+                        <div class="features__text features__text--left">
+                            <h3 class="features__title features__title--left">Good Foundation</h3>
+                            <p class="features__desc features__desc--left">Like any self improving process everything
+                                starts with setting your goals and committing to them
+                            </p>
+                        </div>
+                        <div class="features__icon-box  icon-box--left">
+                            <i class="features__icon fas fa-calendar-check"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Features -->
+
+    <!-- Start Review -->
+    <section class="review">
+        <div class="container">
+            <h3 class="section__heading">Review</h3>
+            <p class="section__sub-heading">Target the right customers for your business with the help of Leno's
+                patented segmentation technology
+            </p>
+            <a class="review__image-box" href="#">
+                <img class="review__image" src="img/video-frame.jpg" alt="review vedio frame">
+                <i class="review__icon fas fa-play-circle"></i>
+            </a>
+        </div>
+    </section>
+    <!-- End Review -->
+
+    <!-- Start Details -->
+
+    <section class="details">
+        <div class="container">
+            <div class="details__item">
+                <img class="details__item__image" src="img/details-1-iphone.png" alt="Details iphone">
+                <div class="details__info">
+                    <h3 class="details__info__heading">Goals setting</h3>
+                    <p class="details__info__desc">Leno can easily help you track your personal development evolution if
+                        you take the time to properly setup your goals at the beginning of the training process. Check
+                        out the details</p>
+                    <a href="#" class="btn details__btn">Lightbox</a>
+                </div>
+            </div>
+            <div class="details__item">
+                <img class="details__item__image detials__item__image--right" src="img/details-2-iphone.png"
+                    alt="Details iphone">
+                <div class="details__info details__info--left">
+                    <h3 class="details__info__heading">Calender input</h3>
+                    <p class="details__info__desc">The calendar input function enables the user to setup training,
+                        meditation and relaxation sessions with ease. Just open the feature and start setting up your
+                        time as you desire
+                    </p>
+                    <a href="#" class="btn details__btn">Lightbox</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Details -->
+
+    <section class="slider-phones">
+        <div class="container">
+            <div class="slider-box">
+                <img src="img/screenshot-1.png" alt="screenshot" class="slider-image">
+                <img src="img/screenshot-2.png" alt="screenshot" class="slider-image">
+                <img src="img/screenshot-3.png" alt="screenshot" class="slider-image">
+                <img src="img/screenshot-4.png" alt="screenshot" class="slider-image">
+                <img src="img/screenshot-5.png" alt="screenshot" class="slider-image">
+                <img src="img/screenshot-6.png" alt="screenshot" class="slider-image">
+                <img src="img/screenshot-7.png" alt="screenshot" class="slider-image">
+                <img src="img/screenshot-8.png" alt="screenshot" class="slider-image">
 
             </div>
         </div>
     </section>
+
+    <!-- End Slider -->
+
+    <!-- Start Hero -->
+    <section class="download">
+        <div class="container">
+            <div class="download__content">
+                <div class="download__text">
+                    <h3 class="download__heading">Download Leno</h3>
+                    <p class="download__paragraph">Target the right customers for your business with the help of Leno's
+                        patented technology and increase conversion figures in less than 2 weeks</p>
+                    <button class="btn hero__btn">
+                        <i class="fab fa-apple btn-icon"></i>App store
+                    </button>
+                    <button class="btn download__btn">
+                        <i class="fas fa-play btn-icon"></i> Play store
+                    </button>
+                </div>
+                <div class="download__phone">
+                    <img src="img/download.png" alt="download phone" class="download__photo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero -->
+
+    <!-- Start Counter -->
+    <section class="counter">
+        <div class="container">
+            <div class="counter-box">
+                <div class="counter__item">
+                    <h3 class="counter__num">231</h3>
+                    <p class="counter__name">Happy users</p>
+                </div>
+                <div class="counter__item">
+                    <h3 class="counter__num">85</h3>
+                    <p class="counter__name">Issues solved</p>
+                </div>
+                <div class="counter__item">
+                    <h3 class="counter__num">59</h3>
+                    <p class="counter__name">Good reviews</p>
+                </div>
+                <div class="counter__item">
+                    <h3 class="counter__num">127</h3>
+                    <p class="counter__name">Case studied</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Counter -->
+
+    <!-- Start Contact -->
+    <section class="contact">
+        <div class="container">
+            <h3 class="section__heading">Contact</h3>
+            <p class="section__sub-heading">Don't hesitate to give us a call or just use the contact form below</p>
+            <div class="contact__info">
+                <div class="contact__address">
+                    <i class="address__icon fas fa-map-marker-alt"></i>
+                    <p>22 Innovative, San Francisco, CA 94043, US</p>
+                </div>
+                <div class="contact__phone">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+81 720 2212</p>
+                </div>
+                <div class="contact__mail">
+                    <i class="fas fa-envelope"></i>
+                    <p>office@leno.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- End Contact -->
+
+
+
+
+
+
+
+
+
+
+
 
 
 
