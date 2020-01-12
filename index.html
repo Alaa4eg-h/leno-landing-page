@@ -308,28 +308,83 @@
     <section class="contact">
         <div class="container">
             <h3 class="section__heading">Contact</h3>
-            <p class="section__sub-heading">Don't hesitate to give us a call or just use the contact form below</p>
+            <p class="section__sub-heading contact__sub-heading">Don't hesitate to give us a call or just use the
+                contact form below</p>
             <div class="contact__info">
-                <div class="contact__address">
-                    <i class="address__icon fas fa-map-marker-alt"></i>
-                    <p>22 Innovative, San Francisco, CA 94043, US</p>
-                </div>
-                <div class="contact__phone">
-                    <i class="fas fa-phone-alt"></i>
-                    <p>+81 720 2212</p>
-                </div>
-                <div class="contact__mail">
-                    <i class="fas fa-envelope"></i>
-                    <p>office@leno.com</p>
-                </div>
+                <p class="contact__address">
+                    <i class="contact__icon fas fa-map-marker-alt"></i>
+                    22 Innovative, San Francisco, CA 94043, US
+                </p>
+                <p class="contact__phone">
+                    <i class="contact__icon fas fa-phone-alt"></i>
+                    +81 720 2212
+                </p>
+                <p class="contact__mail">
+                    <i class="contact__icon fas fa-envelope"></i>
+                    office@leno.com
+                </p>
             </div>
+            <form action="send" class="contact__form">
+                <input class="input-name" type="text" placeholder="Name" required>
+                <input class="input-mail" type="email" placeholder="E-Mail" required>
+                <textarea class="input-message" name="message" id="message" cols="30" rows="10"
+                    placeholder="Your Message" required></textarea>
+                <p class="form__policy"> <input type="checkbox" class="checkbox"><span>I have read and agree to
+                        Leno's stated conditions in <a href="#">Privacy Policy</a> and Terms <a href="#"> Conditions</a>
+                    </span></p>
+                <button type="submit" class="btn btn-large">Submit message</button>
+            </form>
         </div>
     </section>
-
-
-
     <!-- End Contact -->
+    <!-- Start Footer -->
 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__about">
+                    <h3 class="footer__about__title">About leno</h3>
+                    <p class="footer__about__sub-title">We're passionate about creating the best mobile apps for
+                        personal development</p>
+                </div>
+                <div class="footer__links">
+                    <h3 class="footer__links__title">Important links</h3>
+                    <ul class="footer__list">
+                        <li>
+                            <p>Our business partners <a href="#">startupguide.com</a></p>
+                        </li>
+                        <li>
+                            <p> Read our Terms & <a href="#">Conditions</a> , <a href="#"> Privacy Policy</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__social">
+                    <h3 class="footer__social__title">Social media</h3>
+                    <ul class="social-list">
+                        <li><i class="fab fa-facebook"></i></li>
+                        <li><i class="fab fa-facebook"></i></li>
+                        <li><i class="fab fa-facebook"></i></li>
+                        <li><i class="fab fa-facebook"></i></li>
+                        <li><i class="fab fa-facebook"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copright">
+                <p class="copyright">Copyright &copy; Leno - Mobile App HTML Landing Page Template by <a
+                        href="#">Inovatik</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!-- End Footer -->
 
 
 

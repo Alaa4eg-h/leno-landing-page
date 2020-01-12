@@ -7,7 +7,10 @@
   --color-text-light: #f1f1f8;
   --color-dark-1: #262431;
   --color-dark-2: #2f2c3d;
+  --color-dark-3: #413d52;
   --color-cayan: #40e0ee;
+  --color-Logan: #9791ae;
+  --color-white: #fff;
 }
 
 /* Global Resets */
@@ -54,6 +57,10 @@ a {
   text-decoration: none;
 }
 
+textarea {
+  resize: none;
+}
+
 section {
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -81,7 +88,7 @@ section {
 .btn {
   font-size: 1.4rem;
   font-weight: 600;
-  color: #fff;
+  color: var(--color-white);
   background-color: var(--color-cayan);
   padding: 1.3rem 5rem;
   border: 2px solid transparent;
@@ -502,7 +509,7 @@ section {
 
 /* Start Counter */
 .counter {
-  background-color: var(--color-dark-2);
+  background-color: var(--color-dark-1);
 }
 
 .counter-box {
@@ -527,6 +534,110 @@ section {
 /* End Counter */
 /* Start Contact */
 .contact {
-  background-color: var(--color-dark-1);
+  background-color: var(--color-dark-2);
+}
+
+.contact__sub-heading {
+  margin: 2rem auto;
+}
+.contact__info {
+  width: 55%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact__icon {
+  color: var(--color-cayan);
+  margin-right: 0.5rem;
+}
+
+.contact__form {
+  width: 50%;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-name,
+.input-mail,
+.input-message {
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-dark-3);
+  outline: none;
+  margin-bottom: 1.5rem;
+  border: 1px solid #9791ae;
+  color: var(--color-white);
+  font-size: 1.4rem;
+}
+
+.input-name::placeholder,
+.input-mail::placeholder,
+.input-message::placeholder {
+  color: var(--color-white);
+}
+
+.form__policy {
+  display: flex;
+  font-size: 1.3rem;
+  padding: 1.1rem;
+  align-items: center;
+}
+
+.form__policy span {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.form__policy span a {
+  color: var(--color-white);
+  text-decoration: underline;
 }
 /* End Contact */
+/* Start Footer */
+.footer {
+  background-color: var(--color-dark-1);
+  padding: 8rem 0;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__about {
+  flex: 0 0 30%;
+}
+
+.footer__links {
+  flex: 2;
+}
+
+.footer__list {
+  list-style-type: square;
+}
+
+.footer__list li {
+  color: var(--color-cayan);
+  font-size: 1.8rem;
+}
+
+.footer__social {
+  flex: 1;
+}
+
+.footer__content h3 {
+  text-transform: capitalize;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.footer__content p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+/* End Footer */
